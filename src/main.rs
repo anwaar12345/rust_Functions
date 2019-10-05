@@ -84,8 +84,15 @@ fn main(){
     println!("message from \n");
     cal();
     sandexp();
+    
     //arguments and parameters
+    
     argpara(4);
+    
+    //function with returning value
+let n = value(6);
+println!("n:\n {}",n);
+
 }
 //main function Above 
 //simple function Definition
@@ -113,4 +120,10 @@ println!("\n Value from Expression is :\n{}",num);
 
 fn argpara(x:u64){
 println!("The value Got from Parameter is:\n{}",x);
+}
+
+//functions with returning values
+
+fn value(y: u64) -> u64{
+    y
 }
