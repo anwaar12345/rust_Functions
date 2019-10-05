@@ -84,8 +84,10 @@ fn main(){
     println!("message from \n");
     cal();
     sandexp();
+    //arguments and parameters
+    argpara(4);
 }
-
+//main function Above 
 //simple function Definition
 fn cal(){
     println!("i am from called function");
@@ -106,4 +108,9 @@ let num={
     
 };
 println!("\n Value from Expression is :\n{}",num);
+}
+//Arguments and Parameters
+
+fn argpara(x:u64){
+println!("The value Got from Parameter is:\n{}",x);
 }
