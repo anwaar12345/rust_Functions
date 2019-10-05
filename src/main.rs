@@ -83,9 +83,27 @@ num
 fn main(){
     println!("message from \n");
     cal();
+    sandexp();
 }
 
 //simple function Definition
 fn cal(){
     println!("i am from called function");
+}
+
+// Statement And Expression Definition
+
+fn sandexp(){
+
+//statement x
+let x = 9;
+println!("\n statement x:\n{}",x);
+
+//Expression num
+let num={
+    let o = 9;
+    o + 1
+    
+};
+println!("\n Value from Expression is :\n{}",num);
 }
