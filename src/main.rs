@@ -1,4 +1,5 @@
-/*fn main(){
+/*/*
+fn main(){
 let v = ret(-4);
 if v > 0{
 println!("positive{}",v);    
@@ -74,4 +75,17 @@ println!("The Value Of number is: {}\n tup is :{}",v,tup * tup);
 
 fn number(num:u64) -> u64{
 num
+} 
+*/
+
+//second Practice for RUST Functions
+
+fn main(){
+    println!("message from \n");
+    cal();
+}
+
+//simple function Definition
+fn cal(){
+    println!("i am from called function");
 }
